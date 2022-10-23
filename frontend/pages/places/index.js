@@ -7,7 +7,7 @@ import Link from "next/link";
 import Map from "../../components/Map";
 import BigMap from "../../components/BigMap";
 
-const places = ({ places, list }) => {
+const Places = ({ places, list }) => {
   const [menuToggle, setMenuToggle] = useState("list");
   const [sorted, setSorted] = useState([places]);
 
@@ -64,7 +64,7 @@ const places = ({ places, list }) => {
   );
 };
 
-export default places;
+export default Places;
 
 export async function getStaticProps() {
   const placesRes = await fetchAPI("/places", { populate: ["image"] });

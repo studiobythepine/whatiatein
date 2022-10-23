@@ -60,17 +60,18 @@
     "taste": {
       "type": "enumeration",
       "enum": [
-        "bad",
-        "okay",
-        "good"
+        "Nope",
+        "Meh",
+        "Good",
+        "Mmmm"
       ]
     },
-    "price": {
+    "value": {
       "type": "enumeration",
       "enum": [
-        "cheap",
-        "moderate",
-        "pricey"
+        "Overpriced",
+        "Sounds about right",
+        "Happy wallet"
       ]
     },
     "place": {
@@ -81,6 +82,22 @@
     },
     "search": {
       "type": "text"
+    },
+    "bathroom": {
+      "type": "enumeration",
+      "enum": [
+        "Tip toeing",
+        "Cleaned today",
+        "~Aesthetic~"
+      ]
+    },
+    "humans": {
+      "type": "enumeration",
+      "enum": [
+        "No chill",
+        "Its a service",
+        "Extra tip"
+      ]
     }
   }
 }
