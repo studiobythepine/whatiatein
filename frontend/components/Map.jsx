@@ -1,4 +1,3 @@
-import GoogleMapReact from "google-map-react";
 import { GoogleMap, useLoadScript, useJsApiLoader, Marker } from "@react-google-maps/api";
 import { useState } from "react";
 
